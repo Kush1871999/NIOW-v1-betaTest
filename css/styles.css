@@ -1,0 +1,152 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+p{
+  margin: 0;
+}
+
+button{
+  margin: 0.8rem 1.5rem;
+}
+
+.nav-main{
+  padding: 0 4%;
+}
+
+.home-background{
+  background-image: url(../Images/home-div-background.jpg);
+  background-size: cover;
+}
+
+.about-background{
+  background-image: url(../Images/Contact-div-background.jpg);
+  background-size: cover;
+}
+
+#home,
+#features,
+#about,
+#comment,
+#contact,
+#footer-section {
+  padding: 4% 0;
+}
+
+
+
+.row-padding{
+  margin:0;
+  padding: 0 4%;
+  padding-top: 4rem;
+
+}
+
+.col-lg-4{
+  /* display: block; */
+  padding: 0;
+}
+.col-lg-8{
+  /* display: block; */
+  padding: 0;
+}
+
+.col-lg-6{
+  padding: 0;
+}
+
+.home-h4{
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 3rem;
+}
+
+
+.home-row-alignment{
+  padding: 8% 8%;
+  text-align: center;
+}
+
+.box-outline{
+  border-style: solid;
+  border-width: 5px;
+  border-color: #37393B;
+  border-radius: 8px;
+  }
+
+.rightheading{
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #37393B;
+  font-size: 70px;
+  margin: 0;
+  background:linear-gradient(to right, #2b5876, #4e4376);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+
+.leftheading{
+  font-size: 80px;
+  margin: 0;
+  color: #37393B;
+}
+
+.feature-row-alignment{
+  padding: 8% 8%;
+  text-align: center;
+}
+
+.feature-heading{
+  text-align: center;
+  margin: 0;
+  padding-bottom: 4rem;
+}
+
+.feature-h5{
+  padding-bottom: 1.5rem;
+
+}
+
+.feature-row-content{
+  padding-top: 1rem;
+}
+
+/* .card-display{
+  padding: 1rem;
+  display: block;
+  text-align: center;
+} */
+
+.about-heading{
+  text-align: center;
+  margin: 0;
+  padding-bottom: 4rem;
+}
+
+.about-row-alignment{
+  padding: 8% 8%;
+  text-align: center;
+}
+
+.about-image{
+  padding: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.contact-row-alignment{
+  padding: 8% 8%;
+  text-align: center;
+}
+
+.footer-alignment{
+  text-align: center;
+}
